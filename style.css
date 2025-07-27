@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poiret+One&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Tilt+Neon&family=Unbounded&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(95deg, #ffa585, #ffeda0);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 360px;
+    height: 455px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px 0 10px;
+  box-shadow: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pfp > img {
+    border-radius: 50%;
+    width: 60px;
+  border: solid;
+}
+
+.pfp {
+text-align: center;
+font-family: Poiret One;
+}
+
+
+.intro {
+    text-align: center;
+    font-family: Red Hat Display;
+    font-weight: 300;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+  /*Also a gap to space them out*/
+gap: 8px;
+
+}
+
+.socials > img {
+    width: 25px;
+}
+
+ion-icon {
+    font-size: 25px;
+}
+
+.email {
+  background-color: black;
+  color: white;
+ display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.email:hover {
+  background-color: #00D9C0;
+}
+
+
+.programmingLanguages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language {
+  width: 40px;
+}
